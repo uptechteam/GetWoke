@@ -9,21 +9,9 @@
 import UIKit
 import RxSwift
 
-class MainCoordinator: Coordinator {
-
-  init(window: UIWindow) {
-    self.window = window
-    super.init()
-  }
-
-  override func start() -> Observable<Void> {
-    let viewController = MainViewController()
-    return Observable.create {
-      
-    }
-  }
-
-  func finish() -> Observable<Void> {
-    return Observable.never()
+class MainCoordinator: ModalCoordinator {
+  override func makeViewController() -> Observable<UIViewController> {
+    let viewController = MainViewController.storyboardInstance()
+    return Observable.just(viewController)
   }
 }

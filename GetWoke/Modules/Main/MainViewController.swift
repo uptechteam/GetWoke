@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+final class MainViewController: UIViewController, StoryboardInstantiatable {
   override var preferredStatusBarStyle: UIStatusBarStyle {
     return .lightContent
   }

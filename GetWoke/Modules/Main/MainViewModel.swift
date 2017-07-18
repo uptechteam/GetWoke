@@ -12,7 +12,6 @@ protocol MainViewModelProtocol: ViewModel { }
 
 class MainViewModel: MainViewModelProtocol {
   struct Inputs {
-
   }
 
   struct Outputs {

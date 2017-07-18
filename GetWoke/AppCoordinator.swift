@@ -17,14 +17,18 @@ class AppCoordinator: Coordinator {
   }
 
   override func start() -> Observable<Void> {
+    let rootViewController = UIViewController()
+    rootViewController.view.backgroundColor = UIColor.black
+
     return Observable<Void>.create { observer -> Disposable in
+      self.window.rootViewController = rootViewController
       self.window.makeKeyAndVisible()
       observer.onNext()
       observer.onCompleted()
       return Disposables.create()
     }
-      .flatMapLatest { _ -> Observable<Void> in
-        return self.showMain()
+      .flatMapLatest { _ in
+        return self.showMain(in: rootViewController)
       }
   }
 
@@ -32,8 +36,8 @@ class AppCoordinator: Coordinator {
     return Observable.never()
   }
 
-  private func showMain() -> Observable<Void> {
-    let coordinator = MainCoordinator()
+  private func showMain(in parentViewController: UIViewController) -> Observable<Void> {
+    let coordinator = MainCoordinator(parentViewController: parentViewController)
     return coordinate(to: coordinator)
   }
 }

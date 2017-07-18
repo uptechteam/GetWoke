@@ -33,6 +33,7 @@
 		6ADB57011F1E4B2B0049691E /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADB57001F1E4B2B0049691E /* AppCoordinator.swift */; };
 		6ADB57031F1E526C0049691E /* ViewControllerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADB57021F1E526C0049691E /* ViewControllerCoordinator.swift */; };
 		6ADB57051F1E536C0049691E /* ModalCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADB57041F1E536C0049691E /* ModalCoordinator.swift */; };
+		6ADB57081F1E57DC0049691E /* StoryboardInstantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADB57071F1E57DC0049691E /* StoryboardInstantiatable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		6ADB57001F1E4B2B0049691E /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		6ADB57021F1E526C0049691E /* ViewControllerCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerCoordinator.swift; sourceTree = "<group>"; };
 		6ADB57041F1E536C0049691E /* ModalCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalCoordinator.swift; sourceTree = "<group>"; };
+		6ADB57071F1E57DC0049691E /* StoryboardInstantiatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiatable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +216,7 @@
 		6ADB56EA1F1E403A0049691E /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				6ADB57061F1E57AC0049691E /* Protocols */,
 				6ADB56F41F1E49080049691E /* ViewModels */,
 				6ADB56EB1F1E40580049691E /* Coordinators */,
 			);
@@ -255,6 +258,14 @@
 				6ADB56F51F1E49190049691E /* ViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6ADB57061F1E57AC0049691E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6ADB57071F1E57DC0049691E /* StoryboardInstantiatable.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -417,6 +428,7 @@
 				6ADB56F31F1E47E00049691E /* MainViewModel.swift in Sources */,
 				6ADB57011F1E4B2B0049691E /* AppCoordinator.swift in Sources */,
 				6ADB57051F1E536C0049691E /* ModalCoordinator.swift in Sources */,
+				6ADB57081F1E57DC0049691E /* StoryboardInstantiatable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
