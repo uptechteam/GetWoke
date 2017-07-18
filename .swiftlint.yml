@@ -1,0 +1,7 @@
+excluded:
+  - Carthage/
+
+line_length:
+  warning: 150
+  error: 200
+  ignores_urls: true

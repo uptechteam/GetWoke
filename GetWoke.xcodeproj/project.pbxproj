@@ -197,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6ADB56C21F1E2DE00049691E /* Build configuration list for PBXNativeTarget "GetWoke" */;
 			buildPhases = (
+				6ADB56E81F1E3EC10049691E /* SwiftLint */,
 				6ADB56A11F1E2DE00049691E /* Sources */,
 				6ADB56A21F1E2DE00049691E /* Frameworks */,
 				6ADB56A31F1E2DE00049691E /* Resources */,
@@ -317,6 +318,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		6ADB56E81F1E3EC10049691E /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
 		};
 /* End PBXShellScriptBuildPhase section */
 
