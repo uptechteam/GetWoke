@@ -1,0 +1,7 @@
+# Main target
+github "ReactiveX/RxSwift" ~> 3.0
+github "Moya/Moya" ~> 8.0.5
+
+# Unit testing
+github "Quick/Quick" ~> 1.1.0
+github "Quick/Nimble" ~> 7.0.1
