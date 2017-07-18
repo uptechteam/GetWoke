@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6ADB56A91F1E2DE00049691E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADB56A81F1E2DE00049691E /* AppDelegate.swift */; };
-		6ADB56AB1F1E2DE00049691E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADB56AA1F1E2DE00049691E /* ViewController.swift */; };
-		6ADB56AE1F1E2DE00049691E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADB56AC1F1E2DE00049691E /* Main.storyboard */; };
 		6ADB56B01F1E2DE00049691E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ADB56AF1F1E2DE00049691E /* Assets.xcassets */; };
 		6ADB56B31F1E2DE00049691E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADB56B11F1E2DE00049691E /* LaunchScreen.storyboard */; };
 		6ADB56BE1F1E2DE00049691E /* GetWokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADB56BD1F1E2DE00049691E /* GetWokeTests.swift */; };
@@ -28,8 +26,6 @@
 /* Begin PBXFileReference section */
 		6ADB56A51F1E2DE00049691E /* GetWoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetWoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ADB56A81F1E2DE00049691E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6ADB56AA1F1E2DE00049691E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6ADB56AD1F1E2DE00049691E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6ADB56AF1F1E2DE00049691E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6ADB56B21F1E2DE00049691E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6ADB56B41F1E2DE00049691E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,7 +59,9 @@
 				6ADB56BC1F1E2DE00049691E /* GetWokeTests */,
 				6ADB56A61F1E2DE00049691E /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		6ADB56A61F1E2DE00049691E /* Products */ = {
 			isa = PBXGroup;
@@ -78,11 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				6ADB56A81F1E2DE00049691E /* AppDelegate.swift */,
-				6ADB56AA1F1E2DE00049691E /* ViewController.swift */,
-				6ADB56AC1F1E2DE00049691E /* Main.storyboard */,
-				6ADB56AF1F1E2DE00049691E /* Assets.xcassets */,
-				6ADB56B11F1E2DE00049691E /* LaunchScreen.storyboard */,
-				6ADB56B41F1E2DE00049691E /* Info.plist */,
+				6ADB56C81F1E30520049691E /* Resources */,
 			);
 			path = GetWoke;
 			sourceTree = "<group>";
@@ -94,6 +88,16 @@
 				6ADB56BF1F1E2DE00049691E /* Info.plist */,
 			);
 			path = GetWokeTests;
+			sourceTree = "<group>";
+		};
+		6ADB56C81F1E30520049691E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6ADB56AF1F1E2DE00049691E /* Assets.xcassets */,
+				6ADB56B11F1E2DE00049691E /* LaunchScreen.storyboard */,
+				6ADB56B41F1E2DE00049691E /* Info.plist */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,7 +187,6 @@
 			files = (
 				6ADB56B31F1E2DE00049691E /* LaunchScreen.storyboard in Resources */,
 				6ADB56B01F1E2DE00049691E /* Assets.xcassets in Resources */,
-				6ADB56AE1F1E2DE00049691E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +204,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ADB56AB1F1E2DE00049691E /* ViewController.swift in Sources */,
 				6ADB56A91F1E2DE00049691E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,14 +227,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6ADB56AC1F1E2DE00049691E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6ADB56AD1F1E2DE00049691E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6ADB56B11F1E2DE00049691E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
