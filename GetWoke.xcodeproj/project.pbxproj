@@ -10,10 +10,7 @@
 		6ADB56A91F1E2DE00049691E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADB56A81F1E2DE00049691E /* AppDelegate.swift */; };
 		6ADB56B01F1E2DE00049691E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ADB56AF1F1E2DE00049691E /* Assets.xcassets */; };
 		6ADB56B31F1E2DE00049691E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADB56B11F1E2DE00049691E /* LaunchScreen.storyboard */; };
-		6ADB56CF1F1E3C0F0049691E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADB56CA1F1E3C0F0049691E /* Alamofire.framework */; };
-		6ADB56D01F1E3C0F0049691E /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADB56CB1F1E3C0F0049691E /* Moya.framework */; };
 		6ADB56D11F1E3C0F0049691E /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADB56CC1F1E3C0F0049691E /* RxCocoa.framework */; };
-		6ADB56D21F1E3C0F0049691E /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADB56CD1F1E3C0F0049691E /* RxMoya.framework */; };
 		6ADB56D31F1E3C0F0049691E /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADB56CE1F1E3C0F0049691E /* RxSwift.framework */; };
 		6ADB56DB1F1E3D280049691E /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADB56D71F1E3D280049691E /* Nimble.framework */; };
 		6ADB56DC1F1E3D280049691E /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADB56D81F1E3D280049691E /* Quick.framework */; };
@@ -23,7 +20,6 @@
 		6ADB56E21F1E3D9C0049691E /* Quick.framework in Copy Test Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADB56D81F1E3D280049691E /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6ADB56E31F1E3D9C0049691E /* RxBlocking.framework in Copy Test Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADB56D91F1E3D280049691E /* RxBlocking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6ADB56E41F1E3D9C0049691E /* RxTest.framework in Copy Test Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADB56DA1F1E3D280049691E /* RxTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6ADB56E61F1E3DC30049691E /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADB56E51F1E3DC30049691E /* Result.framework */; };
 		6ADB56ED1F1E40770049691E /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADB56EC1F1E40770049691E /* Coordinator.swift */; };
 		6ADB56F11F1E46610049691E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADB56F01F1E46610049691E /* MainViewController.swift */; };
 		6ADB56F31F1E47E00049691E /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADB56F21F1E47E00049691E /* MainViewModel.swift */; };
@@ -71,16 +67,12 @@
 		6ADB56B41F1E2DE00049691E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6ADB56B91F1E2DE00049691E /* GetWokeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetWokeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ADB56BF1F1E2DE00049691E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6ADB56CA1F1E3C0F0049691E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		6ADB56CB1F1E3C0F0049691E /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
 		6ADB56CC1F1E3C0F0049691E /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
-		6ADB56CD1F1E3C0F0049691E /* RxMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxMoya.framework; path = Carthage/Build/iOS/RxMoya.framework; sourceTree = "<group>"; };
 		6ADB56CE1F1E3C0F0049691E /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		6ADB56D71F1E3D280049691E /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		6ADB56D81F1E3D280049691E /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		6ADB56D91F1E3D280049691E /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 		6ADB56DA1F1E3D280049691E /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
-		6ADB56E51F1E3DC30049691E /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 		6ADB56EC1F1E40770049691E /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		6ADB56F01F1E46610049691E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		6ADB56F21F1E47E00049691E /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
@@ -98,12 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ADB56CF1F1E3C0F0049691E /* Alamofire.framework in Frameworks */,
-				6ADB56D01F1E3C0F0049691E /* Moya.framework in Frameworks */,
-				6ADB56D21F1E3C0F0049691E /* RxMoya.framework in Frameworks */,
 				6ADB56D11F1E3C0F0049691E /* RxCocoa.framework in Frameworks */,
 				6ADB56D31F1E3C0F0049691E /* RxSwift.framework in Frameworks */,
-				6ADB56E61F1E3DC30049691E /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,12 +172,8 @@
 			isa = PBXGroup;
 			children = (
 				6ADB56DF1F1E3D3E0049691E /* Tests */,
-				6ADB56CA1F1E3C0F0049691E /* Alamofire.framework */,
-				6ADB56CB1F1E3C0F0049691E /* Moya.framework */,
 				6ADB56CC1F1E3C0F0049691E /* RxCocoa.framework */,
-				6ADB56CD1F1E3C0F0049691E /* RxMoya.framework */,
 				6ADB56CE1F1E3C0F0049691E /* RxSwift.framework */,
-				6ADB56E51F1E3DC30049691E /* Result.framework */,
 			);
 			name = Carthage;
 			sourceTree = "<group>";
@@ -378,21 +362,13 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Moya.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxMoya.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
 			);
 			name = "Copy Carthage Frameworks";
 			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Moya.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxMoya.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Result.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -647,6 +623,7 @@
 				6ADB56C41F1E2DE00049691E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6ADB56C51F1E2DE00049691E /* Build configuration list for PBXNativeTarget "GetWokeTests" */ = {
 			isa = XCConfigurationList;
@@ -655,6 +632,7 @@
 				6ADB56C71F1E2DE00049691E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
